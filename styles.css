@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1599ce;
+  color: #0a0a0a;
+  margin: 20px;
+  }
+
+#principal {
+  background-color: #0a0a0a;
+  font-size: 50px;
+  color: rgb(32, 245, 12);
+  }
+
+#saludo {
+  background-color: #0a0a0a;
+  color: rgb(32, 245, 12);
+  font-size: 40px;
+  }
+
+  h2 {
+  font-size: 25px;
+  background-color: #0a0a0a;
+  color: #1599ce;
+  } 
+
+.title {
+  font-size: 20px;
+  }
+
+.foto {
+  width: 350px;
+}
+
+.imagen {
+  width: 500px;
+}
+
+.texto {
+  background-color: #0a0a0a;
+  color: #1599ce;
+}
+
+.casilla {
+  background-color: #0a0a0a;
+  color: #1599ce;
+}
+
+.mensaje {
+  background-color: #0a0a0a;
+  color: #1599ce;
+  width: 800px;
+}
+
+.boton {
+  background-color: #0a0a0a;
+  color: #1599ce;
+}

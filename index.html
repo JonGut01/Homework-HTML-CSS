@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Mi primer sitio web</h1>
+        <h1 id="principal">Mi primer sitio web</h1>
 
         <span> SENSACIONES //</span>
         <span> OBJETIVOS //</span>
@@ -17,12 +18,12 @@
     </header>
 
     <main>
-        <img src="./imagen3.jpg" />
+        <img src="./imagen3.jpg" class="imagen"/>
 
 
         <section>
             <article>
-                <h2> Hola mundo!</h2>
+                <h2 id="saludo"> Hola mundo!</h2>
 
                 <p>Mi nombre es Jonathan Gutierrez y estoy estudiando programación en Soy Henry,
                     la carrera que elegí es Full Stack Developer.</p>
@@ -30,7 +31,8 @@
             </article>
 
             <article>
-                <h3>Estas son mis sensaciones en este momento</h3>
+                <h2>SENSACIONES</h2>
+                <h3 class="title">Estas son mis sensaciones en este momento:</h3>
 
                 <ul>
                     <li>Entusiasmo.</li>
@@ -41,22 +43,24 @@
             <hr />
 
             <article>
-                <h3>Estos son mis objetivos</h3>
+                <h2>OBJETIVOS</h2>
+                <h3 class="title">Estos son mis objetivos:</h3>
 
                 <ol>
-                    <li>Aprender programación</li>
-                    <li>Ser programador</li>
-                    <li>Viajar por el mundo</li>
+                    <li>Aprender programación.</li>
+                    <li>Ser programador.</li>
+                    <li>Viajar por el mundo.</li>
                 </ol>
             </article>
             <hr />
 
             <article>
-                <h3>Algo sobre mi</h3>
+                <h2>ALGO SOBRE MI</h2>
+                <img src="./foto.jpg" class="foto"/>
                 <div>
-                    <p>¿Por qué me decidí a estudiar esto?</p>
+                    <p class="texto">¿Por qué me decidí a estudiar esto?</p>
 
-                    <p>
+                    <p class="texto">
                         Siempre me gustaron los desafíos, los juegos de lógica, las matemáticas, la computación y todo lo
                         relacionado con la tecnología. Nunca me había decidido a estudiar algo porque no encontraba
                         nada que me llamara la atención como este lenguaje lleno de cálculos y lógicas.
