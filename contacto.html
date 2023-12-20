@@ -12,12 +12,13 @@
     <header>
         <h1>Este es el formulario de contacto</h1>
     </header>
+
     <main>
 
         <img src="imagen4.jpg" class="imagen" />
 
         <div>
-            <h2>Aquí podrás contactarme</h2>
+            <h3 class="title"> Aquí podrás contactarme </h3>
             
 
             <p>
@@ -30,32 +31,37 @@
         </div>
 
         <form>
+        
+            <div id="margin-casillas">
 
-            <div>
-                <label for="Nombre" >Nombre </label>
-                <input type="text" name="Nombre" class="casilla"/>
-            </div>
+                <div>
+                    <label for="Nombre" >Nombre </label>
+                    <input type="text" name="Nombre" class="casilla"/>
+                </div>
+                
+                <div>
+                    <label for="Apellido" >Apellido </label>
+                    <input type="text" name="Apellido" class="casilla"/>
+                </div>
+
+                <div>
+                    <label for="E-mail"> E-mail </label>
+                    <input type="email" name="email" class="casilla"/> 
+                </div>
+
+                <div>
+                    <label for="texto"> Mensaje </label>
+                    <input type="text" name="Mensaje" id="Mensaje" class="mensaje">
+                </div>
             
-            <div>
-                <label for="Apellido" >Apellido </label>
-                <input type="text" name="Apellido" class="casilla"/>
             </div>
-
-            <div>
-                <label for="E-mail"> E-mail </label>
-                <input type="email" name="email" class="casilla"/> 
-            </div>
-
-            <div>
-                <label for="texto"> Mensaje </label>
-                <input type="text" name="Mensaje" id="Mensaje" class="mensaje">
-            </div>
-
             <button class="boton"> ENVIAR </button>
 
         </form>
         
+    
     </main>
+
 </body>
 
 </html>

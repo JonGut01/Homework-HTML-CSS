@@ -6,32 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    
 </head>
 
-<body>
+<body id="margin-gral">
     <header>
-        <h1 id="principal">Mi primer sitio web</h1>
 
-        <span> SENSACIONES //</span>
-        <span> OBJETIVOS //</span>
-        <span> ALGO SOBRE MI </span>
+        <h1 id="principal">MI PRIMER SITIO WEB</h1>
+
+        <div id="primer-parrafo">
+            
+             <h2 id="saludo"> Hola mundo!</h2>
+
+            <p>
+                Mi nombre es Jonathan, vivo en Córdoba Argentina y estoy estudiando programación en Soy Henry.
+                La carrera que elegí es Full Stack Developer.
+                Agregaré algo de contenido a mi página web con estos temas:
+            </p>
+        </div>
+
+
+        <div class="presentación">
+
+                <img src="./imagen3.jpg" class="imagen" />
+            <div>
+                <p class="temas"> SENSACIONES </p>
+                <p class="temas"> OBJETIVOS </p>
+                <p class="temas"> ALGO SOBRE MI </p>
+            </div>
+
+            <img src="./imagen5.jpg" class="imagen">  
+            
+        </div>
+
     </header>
 
     <main>
-        <img src="./imagen3.jpg" class="imagen"/>
-
-
+        
         <section>
-            <article>
-                <h2 id="saludo"> Hola mundo!</h2>
 
-                <p>Mi nombre es Jonathan Gutierrez y estoy estudiando programación en Soy Henry,
-                    la carrera que elegí es Full Stack Developer.</p>
-                <hr />
+            <hr />
+
             </article>
 
             <article>
+            <div id="titulos-temas">
                 <h2>SENSACIONES</h2>
+            </div>
                 <h3 class="title">Estas son mis sensaciones en este momento:</h3>
 
                 <ul>
@@ -43,7 +64,9 @@
             <hr />
 
             <article>
+            <div id="titulos-temas">
                 <h2>OBJETIVOS</h2>
+            </div>
                 <h3 class="title">Estos son mis objetivos:</h3>
 
                 <ol>
@@ -55,24 +78,43 @@
             <hr />
 
             <article>
-                <h2>ALGO SOBRE MI</h2>
-                <img src="./foto.jpg" class="foto"/>
-                <div>
-                    <p class="texto">¿Por qué me decidí a estudiar esto?</p>
 
-                    <p class="texto">
-                        Siempre me gustaron los desafíos, los juegos de lógica, las matemáticas, la computación y todo lo
-                        relacionado con la tecnología. Nunca me había decidido a estudiar algo porque no encontraba
-                        nada que me llamara la atención como este lenguaje lleno de cálculos y lógicas.
-                        De a poco estoy descubriendo cosas interesantes que se puede hacer con la programación,
-                        como por ejemplo crear contenido o realizar diseños entre otras cosas.
-                        En fin, dejo un lorem por acá para agregar algo más de lo aprendido al momento.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur sed quod a, inventore
-                        perspiciatis sunt quo quos deserunt esse doloribus officiis laboriosam exercitationem id. Dolor
-                        sunt optio quae temporibus.
-                    </p>
-                </div>
+                
+                <div id="foto-texto">
+
+                    <img src="./foto.jpg" class="foto"/>
+
+                    <div class="color-text">
+
+                        <h2 class="color-text">ALGO SOBRE MI</h2>
+
+                        <p>
+                            ¿Por qué me decidí a estudiar programación?
+                        </p>
+
+                        <p>
+                            Siempre me gustaron los desafíos, los juegos de lógica, las matemáticas, la computación y todo
+                            lo
+                            relacionado con la tecnología. Nunca me había decidido a estudiar algo porque no encontraba
+                            nada que me llamara la atención como este lenguaje lleno de cálculos y lógicas.
+                            De a poco estoy descubriendo cosas interesantes que se pueden hacer con la programación,
+                            como por ejemplo crear contenido o realizar diseños entre otras cosas.
+                        </p>
+
+                        <p>
+                            En fin, dejo un lorem por acá para agregar algo más de lo aprendido al momento.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur sed quod a, inventore
+                            perspiciatis sunt quo quos deserunt esse doloribus officiis laboriosam exercitationem id. Dolor
+                            sunt optio quae temporibus.
+                        </p>
+                    </div>
+                    
+                    <img src="imagen1.jpg" class="imagen">
+
+                </div>    
+                
             </article>
+
         </section>
         <hr />
 
